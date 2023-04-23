@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70ba75bffe2cbb446907da25777efdd4, type: 3}
+  m_Name: Pistol
+  m_EditorClassIdentifier: 
+  name: Pistol
+  damage: 125
+  ammo: 24
+  clipsize: 8
+  firerate: 0.15
+  bloom: 20
+  weaponSlow: 70
+  recoil: 50
+  kickBack: 0.05
+  aimSpeed: 15
+  reload: 1.25
+  burst: 0
+  pellets: 0
+  mainFOV: 0.8
+  weaponFOV: 0.7
+  gunshotSound: {fileID: 8300000, guid: 7e17efae555c7114283e6a55f9ad08aa, type: 3}
+  reloadSound: {fileID: 8300000, guid: b9eca0160f62ec244aa650ac1f29afa6, type: 3}
+  pitchRandomizaiton: 0.025
+  shotVolume: 0.05
+  prefab: {fileID: 3016974385946885647, guid: 365f66d863503b94a97bd3a4b183aeeb, type: 3}
+  recovery: 0
